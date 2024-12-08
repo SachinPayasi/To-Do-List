@@ -9,7 +9,7 @@ Mark tasks as complete or incomplete with a toggle feature.<br><br>
 Responsive and user-friendly design for better usability.<br><br>
 Real-time updates using JavaScript DOM manipulation.<br>
 <br>
-Technologies Used<br><br>
+# Technologies Used<br><br>
 HTML: For structuring the web page.<br><br>
 CSS: For styling the user interface (UI) with Flexbox for responsiveness.<br><br>
 JavaScript: For interactivity, including task management and DOM updates
