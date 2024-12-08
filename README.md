@@ -10,7 +10,7 @@ A simple and interactive To-Do List application built using HTML, CSS, and JavaS
 Features<br>
 Add new tasks dynamically to the list.<br>
 Delete tasks with a single click.<br>
-Mark tasks as complete or incomplete with a toggle feature<br>.
+Mark tasks as complete or incomplete with a toggle feature.<br>
 Responsive and user-friendly design for better usability.<br>
 Real-time updates using JavaScript DOM manipulation.<br>
 <br>
