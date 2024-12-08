@@ -1,0 +1,44 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size: large;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input , button{
+    padding: 8 px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 500px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10PX;
+    background-color: #14aca8;
+    margin-bottom: 10px;
+
+}
+
+.completed{
+    text-decoration: line-through;
+    color: rgb(217, 15, 15);
+}
+
+
+.task-button{
+    display: flex;
+    gap: 10px;
+}
+
+.task-button button{
+    padding: 5px 10px;
+}
