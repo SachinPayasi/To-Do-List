@@ -1,7 +1,9 @@
 function addTask(){
     
-  var taskInput =  document.getElementById("taskInput").value
+  var taskInputElement =  document.getElementById("taskInput");
+  var taskInput = taskInputElement.value;
   var taskList =  document.getElementById("tasklist")  // Task list is ul
+  
   if(taskInput==""){
     alert("Please Enter The Task")
     return
@@ -22,15 +24,17 @@ function addTask(){
  deleteButton.onclick=function(){
  taskList.removeChild(listItem);
 
- }
+ };
   // complete button
  var completeButton = document.createElement('button')
  buttonContainer.append(completeButton);
- completeButton.innerText = "Complete"
+ completeButton.innerText = "Completed"
  completeButton.onclick = function(){
  listItem.classList.toggle('completed');
  
- }
+ };
 
- taskInput.value= "";
+ taskInputElement.value= "";
 }
+
+
